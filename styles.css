@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #4682b4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #010101;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+}
+
+button, p {
+    color:antiquewhite
+}
+
+.header-text {
+
+    color: white;
+    cursor: pointer;
+}
+
+.log-section button {
+    background-color: #00ae1c;
+    color: #010101;
+    border: none;
+    cursor: pointer;
+
+}
+
+.header-sub-text {
+    font-size: 10px;
+    color: #ccc;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+.header-sub-text:hover {
+    color:gray ;
+    transition: all 0.3s ;
+}
+
+
+.gray-button {
+    background-color: #313131;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.gray-button:hover {
+    background-color: #757575;
+    transition: all 0.2s;
+} 
+
+.signup-button {
+    background-color:#00ae1c;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    background-color:#73ee87 ;
+    transition: all 0.3s;
+}
+
+.form {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 25%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form input {
+    margin-bottom: 40px;
+    padding-bottom: 4px;
+    padding-top: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background: none;
+    
+}
+
+.form button {
+    margin-bottom: 40px;
+    background-color: #add8e6;
+    border: none;
+    padding: 20px;
+    color: black ;
+    border-radius: 4x;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: white;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: white;
+    font-weight: bold ;
+}
+
+
+.form a {
+    text-decoration: none;
+    color: #add8e6;
+    margin-left: 5px;
+
+}
+
+input:focus::placeholder {
+    transform: translateY(-15px);
+    transition: all 0.8s;
+}
+
+.footer {
+    background-color: black;
+    color:white;
+    position: fixed;
+    bottom: 0;
+    width: 300px;
+    left: 50%;
+    padding: 8px;
+    transform: translate(-50%);
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .log-section button {
+        display: none;
+    }
+}
